@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="icon" href="https://nomadicways.travel/show/paarl-paarl/blog-image/Cloudy.png" type="image/icon type">
+</head>
+
+<body>
+    <div class="container content">
+        <h1>Weather App</h1>
+        <div class="input-group mb-3" id="inputArea">
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" placeholder="Enter City Name" id="cityInput">
+            <button type="button" class="btn btn-primary" id="enter" onclick="myfunc()">Enter</button>
+        </div>
+        <div class="display">
+            <p id="myIcon"><i class="bi bi-brightness-high"></i></p>
+            <h3>City Name: <span id="city"></span></h3>
+            <h3>Temp: <span id="temp"></span></h3>
+            <h3>Weather: <span id="weather"></span></h3>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
